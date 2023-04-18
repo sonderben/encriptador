@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
     let encodeText = document.createElement("p");
     let div = document.createElement("div");
     let clearButton = document.createElement("button");
+    
 
     clearButton.textContent = "Clear";
     copyButton.textContent = "Copy";
