@@ -39,6 +39,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
     })
+    
+textArea.addEventListener("focus", function() {
+    this.select();
+});
+
 
 
 
