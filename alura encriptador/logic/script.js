@@ -6,10 +6,10 @@ document.addEventListener("DOMContentLoaded", function () {
     let encodeText = document.createElement("p");
     let div = document.createElement("div");
     let clearButton = document.createElement("button");
-    
 
-    clearButton.textContent = "Clear";
-    copyButton.textContent = "Copy";
+
+    clearButton.textContent = "Borrar";
+    copyButton.textContent = "Copiar";
 
     let textArea = document.querySelector("textarea");
     const encodeButton = document.querySelector("#btn1");
